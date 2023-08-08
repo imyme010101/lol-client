@@ -1,17 +1,6 @@
-# zem.gg
+# lol-client
 
-## Build Setup
+## 목적
 
-```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+1. lol-rest-api 스프링 부트로 작업후 기존 rest-api 데이터 전화
+2. 전적 관련 데이터 분석을 통한 좀더 자세하고 편한 통계를 UI/UX로 제공 
