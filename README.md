@@ -1,5 +1,7 @@
 # lol-client
 
+확인 사이트 : http://141.164.51.23:3000
+
 ## 목적
 
 1. lol-rest-api 스프링 부트로 작업후 기존 rest-api 데이터 전화
