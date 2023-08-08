@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700");
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+
+* {
+  font-family: Roboto, "Nanum Gothic", "Apple SD Gothic Neo";
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+  background: #151618;
+}
+
+.light-scrollbar::-webkit-scrollbar,
+.light-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #48494a;
+  border-radius: 8px
+}
+
+::selection {
+  @apply text-white bg-indigo-1000;
+}
+
+::-moz-selection {
+  @apply text-white bg-indigo-1000;
+}
+
+.min-w-1200 {
+  min-width: 1200px;;
+}
+
+.page-wrapper {
+  width: 1080px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.vertical-center {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.horizontal-center {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.bg-gradient {
+  background: linear-gradient(180deg, #2C5282 0%, rgba(44, 82, 130, 0) 100%);
+}
+
+.bg-gradient-x {
+  background: linear-gradient(270deg, rgba(44,82,130,1) 0%, rgba(44,82,130,0) 100%);
+}
+
+.text-overflow {
+  text-overflow: ellipsis;
+}
+
+.heading {
+  background: linear-gradient(
+    to top,
+    rgb(34, 92, 155) 0%,
+    rgb(34, 92, 135) 100%
+  );
+  box-shadow: rgba(235, 248, 255, 0.1) 0px -1px inset;
+}
+
+.inputbox-color {
+  background: rgba(60, 54, 107, 0.73);
+}

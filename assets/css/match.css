@@ -1,0 +1,53 @@
+/* purgecss start ignore */
+.Win {
+  /* border: 2px solid #5383E8; */
+  border-left: 10px solid #5383E8;
+  background-color: #d5e3ff;
+}
+.Win .head {
+}
+
+.Fail {
+  border-left: 10px solid #E84057;
+  background-color: #ffd8d9;
+}
+.Fail .head {
+}
+
+.Remake {
+  border-left: 10px solid #758592;
+  background-color: #ebeef1;
+  /* background: linear-gradient(90deg, rgba(113, 128, 150, 0.5) 0%, rgba(113, 128, 150, 0.1) 70%); */
+  /* border: 2px solid rgba(113, 128, 150, 0.4); */
+}
+
+.Remake .head {
+}
+
+.ban::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  width: calc(100% + 1px);
+  height: 2px;
+  transform: rotate(-45deg);
+}
+
+.ban-blue::after {
+  background: #38b2ac;
+}
+
+.ban-red::after {
+  background: #f56565;
+}
+
+.ban-img {
+  filter: grayscale(100%);
+}
+
+.ban-order {
+  left: -7px;
+  top: -5px;
+}
+/* purgecss end ignore */

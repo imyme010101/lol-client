@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'GothicA1-Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GongGothicBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+body {
+  font-family: 'GothicA1-Light';
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #d5d5d5;
+}
+::-webkit-scrollbar-track {
+  background-color: #d5d5d5;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(45deg, #6b7280, #6b7280);
+}
+
+.style-2::-webkit-scrollbar-track{
+  border-radius: 8px;
+  background-color: #d5d5d5;
+}
+.style-2::-webkit-scrollbar{
+  width: 8px;
+  height: 8px;
+  background-color: #d5d5d5;
+}
+.style-2::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(45deg, #6b7280, #6b7280);
+}
+
+.min-w-1200 {
+  min-width: 1200px;;
+}
+
+.page-wrapper {
+  width: 1080px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.vertical-center {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.horizontal-center {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.bg-gradient {
+  background: linear-gradient(180deg, #2C5282 0%, rgba(44, 82, 130, 0) 100%);
+}
+
+.bg-gradient-x {
+  background: linear-gradient(270deg, rgba(44,82,130,1) 0%, rgba(44,82,130,0) 100%);
+}
+
+.text-overflow {
+  text-overflow: ellipsis;
+}
+
+.heading {
+  background: linear-gradient(
+    to top,
+    rgb(34, 92, 155) 0%,
+    rgb(34, 92, 135) 100%
+  );
+  box-shadow: rgba(235, 248, 255, 0.1) 0px -1px inset;
+}
+
+.inputbox-color {
+  background: rgba(60, 54, 107, 0.73);
+}
+
+/* purgecss start ignore */
+.Win {
+  background-color: #2563eb1a;
+  border: 1px solid #2563eb42;
+  border-radius: 0.375rem;
+}
+.Win .head {
+}
+
+.Fail {
+  background-color: #dc26261a;
+  border: 1px solid #dc262642;
+  border-radius: 0.375rem;
+}
+.Fail .head {
+}
+
+.Remake {
+  background-color: #7585921a;
+  border: 1px solid #75859242;
+  border-radius: 0.375rem;
+}
+
+.Remake .head {
+}
+
+.ban::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  width: calc(100% + 1px);
+  height: 2px;
+  transform: rotate(-45deg);
+}
+
+.ban-blue::after {
+  background: #38b2ac;
+}
+
+.ban-red::after {
+  background: #f56565;
+}
+
+.ban-img {
+  filter: grayscale(100%);
+}
+
+.ban-order {
+  left: -7px;
+  top: -5px;
+}
+/* purgecss end ignore */
+
+

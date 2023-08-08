@@ -1,0 +1,41 @@
+{
+  "name": "zem.gg",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "cp .env.dev .env && nuxt",
+    "build": "cp .env.live .env && nuxt build",
+    "start": "cp .env.dev .env && nuxt start"
+  },
+  "dependencies": {
+    "@kfonts/neodgm-code": "^0.3.0",
+    "@nuxt/image": "^0.7.1",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/pwa": "^3.3.5",
+    "babel-eslint": "^10.1.0",
+    "buffer": "^6.0.3",
+    "chart.js": "^3.9.1",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "mathjs": "^10.6.4",
+    "node-fetch": "^3.3.1",
+    "nuxt": "2.17.1",
+    "nuxt-edge": "latest",
+    "vue-chartjs": "^4.1.1",
+    "vue-sticky-sidebar": "^1.0.5"
+  },
+  "devDependencies": {
+    "@nuxt/postcss8": "^1.1.3",
+    "@nuxtjs/device": "^2.1.0",
+    "@nuxtjs/eslint-module": "^3.1.0",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "@tailwindcss/forms": "^0.5.3",
+    "eslint": "^8.23.0",
+    "postcss": "8",
+    "postcss-custom-properties": "^12.1.8",
+    "postcss-preset-env": "^7.8.1",
+    "sass": "^1.54.9",
+    "sass-loader": "10"
+  }
+}
