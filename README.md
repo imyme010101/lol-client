@@ -1,3 +1,3 @@
 # lol-client
 
-- vue LeagueOfLegend 클라이언트
+- LeagueOfLegend 프론트 페이지
